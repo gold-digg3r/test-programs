@@ -1,4 +1,4 @@
-# test-programs
+# NFTs and Staking - Test Programs
 Gold Digger Rust and Anchor Programs
 
 Deploying the updated program to Solana and ensuring the front-end integrates the staking features requires multiple steps. Deploying the program, integrating the front-end, and updating the rewards system for Gold Digger NFTs.
