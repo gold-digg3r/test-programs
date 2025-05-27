@@ -10,6 +10,39 @@ Before deploying the program, ensure you have the following setup:
 * Solana CLI installed: [Solana Docs](https://docs.solana.com/cli/install-solana-cli-tools)
 * Anchor framework installed: [Anchor Docs](https://project-serum.github.io/anchor/getting-started/installation.html)
 
+# Specify the organization name for the program.
+pnpm create solana-program --org acme
+
+# Select a program framework.
+pnpm create solana-program --anchor
+pnpm create solana-program --shank
+
+# Select the clients to generate for your program (default to all clients).
+pnpm create solana-program --client js --client rust
+
+# Opt out of generating any clients for your program.
+pnpm create solana-program --no-clients
+
+# Do not prompt use input and use all default values (alias: -d).
+pnpm create solana-program --default
+
+# The --default flag can be combined with other flags.
+pnpm create solana-program counter --org acme --default
+
+# Skip generating a new program keypair and use the provided address instead.
+pnpm create solana-program --address "MyProgram11111111111111111"
+
+# Use a specific Solana version instead of detecting the one installed on the system.
+pnpm create solana-program --solana 1.18
+
+# Force the creation of the program repository even if the directory is not empty.
+pnpm create solana-program --force
+
+# Override the library names.
+pnpm create solana-program --program-crate-name acme-counter
+pnpm create solana-program --rust-client-crate-name acme-counter-client
+pnpm create solana-program --js-client-package-name @acme/counter
+
 #### **1.1 Build the Program**
 
 Start by building the Solana program.
