@@ -1,14 +1,19 @@
 # NFTs and Staking - Test Programs
+
 Gold Digger Rust and Anchor Programs
 
 Deploying the updated program to Solana and ensuring the front-end integrates the staking features requires multiple steps. Deploying the program, integrating the front-end, and updating the rewards system for Gold Digger NFTs.
+
+# About Programs
+
+solana-program for NFT collection management with factory pattern, Metaplex integration, and built-in promotion system. Supports multi-creator royalties, secure PDA management, and scalable NFT operations.
 
 ### **Step 1: Deploy the Updated Solana Program**
 
 Before deploying the program, ensure you have the following setup:
 
 * Solana CLI installed: [Solana Docs](https://docs.solana.com/cli/install-solana-cli-tools)
-* Anchor framework installed: [Anchor Docs](https://project-serum.github.io/anchor/getting-started/installation.html)
+* Anchor framework installed: [Anchor Docs](https://)
 
 # Specify the organization name for the program.
 pnpm create solana-program --org acme
